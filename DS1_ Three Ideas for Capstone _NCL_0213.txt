@@ -1,0 +1,85 @@
+Three Data Science Project Ideas- N. Lange
+
+1- Time Usage vs. Mood:
+How do people spend their time, in terms of activity, and in terms of mood or experience? 
+
+Variant A- Compare available metrics for time usage and mood/happiness. Evaluate relationships among these areas, with an eye toward identifying correlations, etc.
+
+Potential data sources:
+
+American Time Use Survey:
+https://www.atusdata.org/atus-action/variables/group
+
+US Happiness - related metrics:
+https://news.gallup.com/poll/125066/State-States.aspx
+https://wallethub.com/edu/happiest-states/6959/
+
+World Happiness: 
+https://www.kaggle.com/unsdsn/world-happiness
+
+Alternate Variant- B:
+Identify categories of mood (and potentially of time usage) to produce new metrics from available social media data, eg- via text mining and cluster analysis. (This could then be used to do additional analysis along the lines of Variant A.)
+
+Potential data source: Text mining of Twitter data:
+https://towardsdatascience.com/setting-up-twitter-for-text-mining-in-r-bcfc5ba910f4
+
+
+2- Characterizing Media Presentation of Climate Change and its Relationship to Beliefs: 
+
+How is climate change discussed in news and/or social media, and how does this relate to beliefs about climate change?  Perform text mining to identify categories of presentation in news or social media text; investigate potential relationships between these categories and available belief metrics (or among the categories themselves).
+
+Potential data sources:
+
+Climate Change Belief metrics- US:
+http://climatecommunication.yale.edu/visualizations-data/ycom-us-2018/?est=happening&type=value&geo=county
+
+World:
+https://en.wikipedia.org/wiki/Climate_change_opinion_by_country
+
+Climate Change media coverage:
+
+Approach A1- Obtain news articles via web scraping 
+Note- Likely too labor intensive for the confines of the course.
+
+Approach A2- Identify news media data already available in a readily ingested form:
+
+Search ongoing- potential data source/reference:
+https://www.researchgate.net/publication/312015168_Beyond_false_balance_How_interpretive_journalism_shapes_media_coverage_of_climate_change
+
+Approach A3- Produce a pilot data source with an eye toward establishing a basis for continuing work, and inviting others to contribute.
+
+Approach B- Use social media as an alternative to, or potentially as a secondary source for, news media data:
+
+Potential data source: Text mining of Twitter data:
+https://towardsdatascience.com/setting-up-twitter-for-text-mining-in-r-bcfc5ba910f4
+
+
+3- Other Ways to Talk About a Tomato:
+
+Expand on the content provided by Rotten Tomatoes & similar review aggregating sites by evaluating additional attributes or categories to be derived via text mining of reviews (eg- strength of feelings expressed by the reviewer); consider potential relationships to other attributes.
+
+Alternate Variant- Perform text mining on movie-related social media posts or user reviews, rather than on formal reviews.
+
+
+Potential data sources:
+
+Rotten Tomatoes current film listings:
+https://www.rottentomatoes.com/browse/box-office/
+
+Rotten Tomatoes API:
+https://developer.fandango.com/Rotten_Tomatoes
+
+Movie Tweetings:
+https://github.com/sidooms/MovieTweetings
+
+Metacritic current listings:
+https://www.metacritic.com/movie
+
+Open Movie Database:
+http://www.omdbapi.com/
+
+Additional sources:
+https://www.reddit.com/r/dataisbeautiful/comments/40gr9e/i_created_a_movie_database_site_that_combines/
+
+https://www.reddit.com/r/datasets/comments/246ycf/imdbrottentomatoes_data/
+
